@@ -12,6 +12,8 @@
   .navbar {
     background-color: #f8f9fa;
     padding: 10px 20px;
+    grid-template-rows: auto 2fr auto;
+
   }
   
   .navbar-container {
