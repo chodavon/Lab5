@@ -10,24 +10,28 @@
         min-height: 100vh;
         display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #e97ce2;
+        
       }
       .form-box {
         border: 1px solid #bc20e7;
-        padding: 30px;
-        border-radius: 10px;
+        padding: 20px;
+        border-radius: 20px;
         box-shadow: 0 4px 8px rgba(159, 221, 239, 0.1);
         background-color: #f4f4f4;
+        max-width: 400px;
         
       }
+      a:link { 
+        text-decoration: none; 
+      } 
     </style>
 </head>
 <body>
   <div class="full-page">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="form-box">
             <h1 class="text-center" style="color: #1634b9;">Register</h1>
             <form>
@@ -39,7 +43,7 @@
                     <label for="exampleFormControlInput1" class="form-label">Username</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter username">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter email">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter email">
                     <label for="exampleFormControlInput1" class="form-label">Password</label>
                     <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Enter password">
                     <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
