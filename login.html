@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Page</title>
   <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <style>
     body {
       background-color: #f0f2f5; 
@@ -24,7 +26,7 @@
       margin-bottom: 20px;
     }
 
-    .form-group  {
+    .form-group {
       height: 45px;
       font-size: 1.1rem;
       margin-bottom: 15px; 
@@ -46,7 +48,7 @@
       margin-bottom: 15px; 
     }
     
-    .text-center {
+    .text-center a {
       color: #1877f2;
       text-decoration: none;
     }
@@ -54,6 +56,19 @@
     .forgot-password {
       font-size: 0.8rem;
     }
+
+    .facebook-login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 1.1rem;
+    }
+
+    .facebook-login i {
+      color: #1877f2;
+    }
+
     hr {
       margin: 20px 0;
     }
@@ -79,7 +94,13 @@
             </p>
             <hr>
             <div class="text-center">
-                <button type="button" class="btn btn-outline-primary btn-block btn-lg">Create New Account</button>
+              <button type="button" class="btn btn-outline-primary btn-block btn-lg">Create New Account</button>
+            </div>
+            <div class="text-center">
+              <a href="#" class="d-flex align-items-center justify-content-center gap-2">
+                <i class="fa-brands fa-facebook fa-lg"></i>
+                <i class="fa-regular fa-envelope"></i>
+              </a>
             </div>
           </form>
         </div>
